@@ -15,16 +15,17 @@ const Update = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const bookId = location.pathname.split("/")[2];
-
+  // const bookId = location.pathname.split("/")[2];
+  const bookId=book.id;
   const handleChange = (e) => {
     setBook((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleClick = async (e) => {
+  const handleClick =(e) => {
     e.preventDefault();
     try {
-      await axios.put(`http://localhost:8081/books/${bookId}`, book);
+      console.log("update book");
+      axios.post(`http://localhost:8081/books/${bookId}`, book);
       navigate("/Admin/AdminDashboard");
     } catch (err) {
       console.log(err);

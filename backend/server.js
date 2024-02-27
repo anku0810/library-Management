@@ -7,10 +7,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql2.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "1417@anku",
-  database: "library_db",
+  host: "bgymucaltpvf0tgxiimf-mysql.services.clever-cloud.com",
+  user: "uwd9jlok1r4aclk2",
+  password: "N99N26FGakWVp8lCWqjg",
+  database: "bgymucaltpvf0tgxiimf",
 });
 
 app.get("/", (req, res) => {
@@ -60,7 +60,7 @@ app.delete("/books/:id", (req, res) => {
   });
 });
 
-app.put("/books/:id", (req, res) => {
+app.post("/books/:id", (req, res) => {
   const bookId = req.params.id;
   const q = "UPDATE admin_books SET title = ?,  author = ?, subject = ?,  publish_date = ?  WHERE id = ?";
 
@@ -74,7 +74,8 @@ app.put("/books/:id", (req, res) => {
 
   db.query(q, [...values,bookId], (err, data) => {
     if (err) return res.send(err);
-    return res.json(data);
+    // return res.json(data);
+    console.log(data);
   });
 });
 
