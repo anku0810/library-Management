@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.book-list-container {
+  margin-bottom: 20px;
+}
+
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  .title {
+    font-size: 24px;
+    color: white;
+  }
+
+  .filter-container,
+  .book-list-container,
+  .pagination-container {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  
+  .title {
+    font-size: 20px;
+  }
+
+  .filter-container,
+  .book-list-container,
+  .pagination-container {
+    margin: 0 5px;
+  }
+}
+
+
+
+body {
+  background: linear-gradient(to right, #1e5799 0%, #2ce0bf 19%, #76dd2c 40%, #dba62b 60%, #e02cbf 83%, #1e5799 100%);
+  background-size: 10000px 100%;
+  animation: bg 15s linear infinite;
+}
+
+@keyframes bg {
+  0% {
+    background-position-x: 0;
+  }
+  
+  100% {
+    background-position-x: 10000px;
+  }
+}

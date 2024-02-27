@@ -1,0 +1,142 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "bookcount": 15,
+    "author": "F. Scott Fitzgerald",
+    "subject": "Fiction",
+    "publishDate": "1925-04-10"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "bookcount": 18,
+    "author": "Harper Lee",
+    "subject": "Drama",
+    "publishDate": "1960-07-11"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "bookcount": 12,
+    "author": "J.D. Salinger",
+    "subject": "Fiction",
+    "publishDate": "1951-07-16"
+  },
+  {
+    "title": "The Alchemist",
+    "bookcount": 22,
+    "author": "Paulo Coelho",
+    "subject": "Fiction",
+    "publishDate": "1988-06-01"
+  },
+  {
+    "title": "1984",
+    "bookcount": 20,
+    "author": "George Orwell",
+    "subject": "Fiction",
+    "publishDate": "1949-06-08"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "bookcount": 17,
+    "author": "Jane Austen",
+    "subject": "Fiction",
+    "publishDate": "1813-01-28"
+  },
+  {
+    "title": "The Hobbit",
+    "bookcount": 14,
+    "author": "J.R.R. Tolkien",
+    "subject": "Fantasy",
+    "publishDate": "1937-09-21"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "bookcount": 15,
+    "author": "J.R.R. Tolkien",
+    "subject": "Fantasy",
+    "publishDate": "1954-07-29"
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "bookcount": 30,
+    "author": "J.K. Rowling",
+    "subject": "Fantasy",
+    "publishDate": "1997-06-26"
+  },
+  {
+    "title": "Gone with the Wind",
+    "bookcount": 12,
+    "author": "Margaret Mitchell",
+    "subject": "Drama",
+    "publishDate": "1936-06-30"
+  },
+  {
+    "title": "Moby-Dick",
+    "bookcount": 15,
+    "author": "Herman Melville",
+    "subject": "Adventure",
+    "publishDate": "1851-10-18"
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "bookcount": 25,
+    "author": "J.K. Rowling",
+    "subject": "Drama",
+    "publishDate": "1998-07-02"
+  },
+  {
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "bookcount": 20,
+    "author": "C.S. Lewis",
+    "subject": "Fantasy",
+    "publishDate": "1950-10-16"
+  },
+  {
+    "title": "The Adventures of Tom Sawyer",
+    "bookcount": 18,
+    "author": "Mark Twain",
+    "subject": "Adventure",
+    "publishDate": "1876-12-10"
+  },
+  {
+    "title": "Romeo and Juliet",
+    "bookcount": 15,
+    "author": "William Shakespeare",
+    "subject": "Romance",
+    "publishDate": "1597-01-20"
+  },
+  {
+    "title": "The Scarlet Letter",
+    "bookcount": 20,
+    "author": "Nathaniel Hawthorne",
+    "subject": "Drama",
+    "publishDate": "1850-03-16"
+  },
+  {
+    "title": "Alice's Adventures in Wonderland",
+    "bookcount": 22,
+    "author": "Lewis Carroll",
+    "subject": "Fantasy",
+    "publishDate": "1865-11-26"
+  },
+  {
+    "title": "The Princess Bride",
+    "bookcount": 16,
+    "author": "William Goldman",
+    "subject": "Romance",
+    "publishDate": "1973-09-08"
+  },
+  {
+    "title": "Jurassic Park",
+    "bookcount": 18,
+    "author": "Michael Crichton",
+    "subject": "Adventure",
+    "publishDate": "1990-11-20"
+  },
+  {
+    "title": "Wuthering Heights",
+    "bookcount": 14,
+    "author": "Emily Brontë",
+    "subject": "Romance",
+    "publishDate": "1847-12-13"
+  }
+]

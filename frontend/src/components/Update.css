@@ -1,0 +1,95 @@
+.update-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .update-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-form h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-right: 25px;
+  }
+  
+ 
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px
+  }
+  
+  .update-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea.update-input {
+    width: 100%;
+    min-height: 5px; /* Set minimum height */
+    max-height: 10px; 
+
+  }
+  
+  .small-update-input {
+    width: calc(100% - 20px); /* Adjust width to make room for padding */
+  }
+  
+  .update-btns {
+    width: 100%;
+    padding: 10px;
+    background-color: #0b010c;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .update-btns:hover {
+    background-color: #ec521f;
+  }
+  
+  .update-error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .update-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .update-link:hover {
+    text-decoration: underline;
+  }
+  
+  .clicking{
+    padding: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left:18px;
+  background-color: rgb(241, 155, 238);
+  cursor: pointer;
+  }
+
+  .clicking:hover{
+    background-color: azure;
+  }

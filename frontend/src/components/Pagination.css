@@ -1,0 +1,33 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add some top margin for spacing */
+  }
+  
+  .pagination {
+    list-style: none;
+    display: flex;
+    padding: 0; /* Remove default padding */
+  }
+  
+  .page-item {
+    margin: 0 3px; /* Reduce margin for closer spacing */
+  }
+  
+  .page-link {
+    padding: 8px 12px;
+    background-color: #9d0eea; /* Green color */
+    color: #fff;
+    border: 2px solid transparent; /* Add border for better visibility */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+    font-size: 20px;
+  }
+  
+  .page-link:hover,
+  .page-link:focus {
+    background-color: #e9e512; /* Darker green on hover/focus */
+    border-color: #ee6e83; /* Darker border on hover/focus */
+  }
+  

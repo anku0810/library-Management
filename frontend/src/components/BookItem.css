@@ -1,0 +1,13 @@
+.book-item {
+    background-color: rgb(240, 245, 231);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .book-details {
+    padding: 10px;
+    color : rgb(17, 16, 16);
+
+  }

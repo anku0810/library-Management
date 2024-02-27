@@ -1,0 +1,116 @@
+/* Center the form vertically and horizontally */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the form container */
+.form-container {
+  width: 400px;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin: 20px; /* Add margin for spacing */
+}
+
+/* Center-align the heading */
+.form-container h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Style the form elements */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add margin between form groups */
+.form-group {
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+
+/* Style labels */
+.form-group label {
+  font-weight: bold;
+}
+
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the button */
+.form-group .btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Change button color on hover */
+.form-group .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Style error messages */
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Center-align link */
+.link {
+  text-align: center;
+  margin-top: 20px; 
+}
+
+/* Style link */
+.link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.btn{
+  background-color: antiquewhite;
+  padding:8px;
+  margin: 8px;
+  font-size:18px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.btn:hover{
+  background-color: rgb(232, 157, 44);
+}
+
+.booking{
+  padding: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left:18px;
+  background-color: lightsalmon;
+  cursor: pointer;
+}
+
+.booking:hover{
+  background-color: thistle;
+}
+
