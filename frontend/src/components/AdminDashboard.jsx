@@ -8,7 +8,7 @@ const AdminDashboard = () => {
 
   const fetchAllBooks = async () => {
     try {
-      const res = await axios.get("http://localhost:8081/books");
+      const res = await axios.get("https://library-management-26dx.onrender.com/books");
       setBooks(res.data);
     } catch (err) {
       console.log(err);
@@ -21,7 +21,7 @@ const AdminDashboard = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:8081/books/${id}`);
+      await axios.delete(`https://library-management-26dx.onrender.com/books/${id}`);
       fetchAllBooks(); // Refresh the book list after deletion
     } catch (err) {
       console.log(err);

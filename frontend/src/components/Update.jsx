@@ -25,7 +25,7 @@ const Update = () => {
     e.preventDefault();
     try {
       console.log("update book");
-      axios.post(`http://localhost:8081/books/${bookId}`, book);
+      axios.post(`https://library-management-26dx.onrender.com/books/${bookId}`, book);
       navigate("/Admin/AdminDashboard");
     } catch (err) {
       console.log(err);
